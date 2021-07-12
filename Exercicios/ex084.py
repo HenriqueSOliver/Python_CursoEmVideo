@@ -4,11 +4,6 @@ banco = []
 dado = []
 maiorp = menorp = n = 0
 
-print('-='*30)
-print(f'\033[7;30;39m{"CADASTRO DE PESSOAS":^60}\033[m')
-print('-='*30)
-
-
 while True:
     n +=1
     print(f'------{n}ª PESSOA------')
@@ -18,7 +13,7 @@ while True:
     dado.append(int(input('Idade: ')))
 
 
-    dado.append(int(input('Peso: ')))
+    dado.append(int(input('Ano que começou a trabalhar: ')))
 
     if len(banco) == 0:
         maiorp = menorp = dado[2]

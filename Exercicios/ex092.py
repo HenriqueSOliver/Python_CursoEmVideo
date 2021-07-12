@@ -7,11 +7,6 @@ from datetime import datetime
 trabalhador = {}
 
 
-print(' ')
-print('='*30)
-print(f'{"CADASTRO DO TRABALHADOR":^30}')
-print('='*30)
-
 trabalhador ['Nome'] = str(input(f'Nome do Trabalhador: ')).strip()
 nasc = int(input(f'Ano de Nascimento: '))
 trabalhador ['Idade'] = datetime.now().year - nasc
